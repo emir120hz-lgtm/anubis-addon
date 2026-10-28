@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "anubis-addon",
+  "version": "0.1.0",
+  "name": "Anubis Addon",
+  "description": "Base finding and visual tools ported from Anubis (GPL-3.0) to a Meteor Client addon.",
+  "authors": ["port of 4ldenz/Anubis-client"],
+  "license": "GPL-3.0-only",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["dev.anubis.addon.AnubisAddon"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "meteor-client": "*"
+  }
+}
